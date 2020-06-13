@@ -1,0 +1,454 @@
+ 
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif; 
+
+}
+
+hr {
+  border: 1px solid rgba(0,0,0,0.5);
+  border-top: 0px solid rgba(0,0,0,0.5);
+}
+
+/* Dashboard*/
+.dashboard-container {
+  text-align: center;
+  background-color: white;
+}
+
+.center-texts {
+  text-align: center;
+}
+
+.btn {
+  text-transform: uppercase;
+  margin: 15px auto;
+  padding: 5px;
+  border: 1px solid rgba(0,0,0,.29);
+  background: #fff;
+  font-size: 12px;
+  width: 125px;
+  position: relative;
+}
+
+.dashboard-button {
+  width: 100%;
+  max-width: 590px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  
+  padding: 10px 24px;
+  border-radius: 5px;
+}
+
+.dashboard-button > .btn {
+  margin: 15px 20px;
+  background-color: #d9d4d8;
+  font-size: 15px;
+  font-family: "Verdana", Geneva, sans-serif;
+
+}
+
+.dashboard-button > .btn:hover {
+  border-color: rgba(0,0,0,.75);
+  background-color: rgba(0,0,0,0.05);
+  text-decoration: none;
+}
+
+.dashboard-button > .btn:focus {
+  outline: 0;
+}
+
+/* Login page */
+.login-heading {
+  border: 1px solid rgba(0,0,0,.29);
+  background: #DC143C;
+
+}
+
+.login-padding {
+    
+  padding-top: 150px;
+}
+
+.login-container {
+
+  padding: 16px;
+}
+
+.login-image {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.login-select-btn {
+  position: relative;
+  font-family: Arial;
+  padding-top: 30px;
+}
+
+.login-select-btn select {
+  background-color: #87CEFA;
+  font-size: 15px;
+  padding: 10px 24px;
+  border-radius: 2px;
+  width: 25%;
+  border: 1px solid green;
+}
+
+.login-submit-btn {
+  background-color: #f5494b;
+  font-size: 15px;
+  padding: 10px 24px;
+  border-radius: 2px;
+  width: 25%;
+  border: 1px solid green;
+
+}
+
+.login-submit-btn:hover {
+opacity: 0.8;
+}
+
+/* Question Text*/
+
+.question-text {
+  background-color: #FFC0CB;
+  width: 100%;
+  max-width: 590px;
+  margin: 0 auto;
+  padding: 20px 10px 10px 10px;
+  border: 2px solid rgba(0,0,0,.59);
+  border-radius: 5px;
+}
+.options {
+  
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+}
+
+.options > div.option1 {
+  background-color: #191970;
+  width: 40%;
+  max-width: 250px;  
+  padding: 10px;
+  border: 1px solid rgba(0,0,0,.49);
+  border-radius: 10px;
+}
+.options > div.option1 p {
+  font-weight: 400;
+  margin: 0;
+  color: white;
+  padding-top: 15px;
+  text-align: center;
+  }
+.options > div.option2 {
+  background-color: #8B0000;
+  width: 40%;
+  max-width: 250px;
+  padding: 10px;
+  border: 1px solid rgba(0,0,0,.29);
+  border-radius: 10px;
+}
+.options > div.option2 p {
+  font-weight: 400;
+  margin: 0;
+  color: white;
+  padding-top: 15px;
+  text-align: center;
+  }
+
+.options > div.or-text {
+  background-color: #D3D3D3;
+  width: 4%;
+  max-width: 70px;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+/*********** Poll ************/
+
+.error-404 {
+  height: 100%;
+  border-radius: 10px;
+  
+  padding-left: 25%;
+}
+
+.center-poll {
+text-align: center;
+padding-bottom: 20px;
+}
+
+/* Unpolled */
+.center-unpolled{
+position: static;
+}
+
+.split {
+  position: absolute;
+  z-index: 1;
+  top: 60;
+  overflow-x: hidden;
+  padding-top: 70px;
+}
+
+.left {
+  height: 40%;
+  width: 45%;
+  left: 0;
+  background-color: white;
+}
+
+.right {
+  height: 40%;
+  width: 55%;
+  right: 0;
+  background-color: white;
+}
+
+.poll-centered-left {
+  position: absolute;
+  top: 50%;
+  left: 85%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.poll-centered-left img {
+  width: 80%;
+  max-width: 590px;
+  height: 50%;
+  border-radius: 0%;
+  padding-right: 70px; 
+}
+
+.poll-user-avatar {
+  width: 100%;
+  max-width: 590px;
+  margin: 0px auto;
+  display: flex;
+  padding: 40px 0px 10px 40px;
+}
+
+.poll-centered-left h3 {
+padding-left: 30%
+}
+
+.poll-centered-right {
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+.options-unpolled {
+  width: 100%;
+  max-width: 790px;
+  margin: 0px auto;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  padding: 40px 0px 10px 60px;  
+}
+
+.options-unpolled > div.option1 {
+  background-color: #191970;
+  width: 100%;
+  max-width: 250px;
+  padding: 20px;
+  display: flex;
+  flex-flow: column nowrap;
+  border: 1px solid rgba(0,0,0,0.29);
+  border-radius: 5px;
+  text-align: center;
+}
+
+.options-unpolled > div.option1 div {
+  color: white;
+}
+
+.options-unpolled > div.option1 p {
+  color: white;
+}
+
+.options-unpolled > div.option1 > .btn:hover {
+  border-color: rgba(0,0,0,.75);
+  background-color: rgba(0,0,0,0.05);
+  text-decoration: none;
+}
+
+.options-unpolled > div.option2 > .btn:hover {
+  border-color: rgba(0,0,0,.75);
+  background-color: rgba(0,0,0,0.05);
+  text-decoration: none;
+}
+
+.options-unpolled > div.option2 {
+  background-color: #8B0000;
+  width: 100%;
+  max-width: 250px;
+  padding: 20px;
+  display: flex;
+  flex-flow: column nowrap;
+  border: 1px solid rgba(0,0,0,0.29);
+  border-radius: 5px;
+  text-align: center;
+}
+
+.options-unpolled > div.option2 div {
+  color: white;
+}
+
+.options-unpolled > div.option2 p {
+  color: white;
+}
+
+/* poll result */
+
+/* nav bar */
+
+.nav {
+  position: sticky;
+  top: 0px;
+  z-index: 1000;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #DC143C;
+}
+
+.nav ul {
+  margin: 0 auto;
+  padding: 0px 10px 0px 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  text-decoration: none;
+}
+
+.nav li {
+  width: 100%;
+  max-width: 125px;
+  padding: 20px 5px 20px 5px;
+  text-align: center;
+
+}
+
+.nav li.currentUser {
+  margin-left: auto;
+  padding: 0px 10px 0px 10px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.currentUser-avatar {
+  height: 35px;
+  border-radius: 50px;
+  margin-right: 20px; 
+}
+
+.nav hr {
+  margin: 0px;
+}
+
+ul {
+  padding-left: 0;
+}
+
+li {
+  list-style-type: none;
+  padding: 20px 0px;
+  text-decoration: none;
+}
+
+.nav-color {
+  color:  black;
+}
+
+/***** leader board ***/
+.leaderboard-container {
+  width: 100%;
+  max-width: 590px;
+  margin: 0 auto;
+
+}
+
+.leaderboard-user {
+  margin: 10px auto;
+  padding: 10px;
+  border: 1px solid rgba(0,0,0,.29);
+  background-color: #D3D3D3;
+}
+
+.display-rank {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.user-avatar-rank {
+  width: 100%;
+  text-align: center;
+}
+
+.leader-user-avatar {
+  height: 70px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+/**** create question ****/
+
+.create-question {
+  width: 100%;
+  max-width: 590px;
+  margin: 0 auto;
+}
+
+.create-question h2 {
+padding-bottom: 40px;
+padding-top: 20px;
+}
+
+.create-question-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.create-question-form> .btn {
+  background-color: #008000;
+  font-size: 15px;
+  padding: 10px 24px;
+  border-radius: 10px;
+  width: 35%;
+  border: 1px solid green;
+  color: black;
+}
+
+.create-question-form> .btn:hover {
+opacity: 0.8;
+}
+
+.input {
+  margin: 15px auto;
+  padding: 5px;
+  border: 5px solid rgba(0,0,0,0.29);
+  font-size: 15px;
+  width: 300px;
+}
+
+
+
