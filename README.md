@@ -12,4 +12,4 @@ This is a React application that was built as part of the Udacity React Nanodegr
 
 <h2>Demo</h2>
 
-![](/myReads.gif)
+![](WouldYouRather.gif)
