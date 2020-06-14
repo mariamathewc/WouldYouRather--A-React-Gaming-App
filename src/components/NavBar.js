@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import { NavLink } from 'react-router-dom'
 import { connect } from 'react-redux'
-import { FaCalendar } from 'react-icons/fa'
 import { logout } from '../actions/authedUser'
 import { withRouter } from 'react-router-dom'
 import 'font-awesome/css/font-awesome.min.css';
