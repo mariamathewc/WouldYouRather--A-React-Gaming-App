@@ -38,7 +38,7 @@ class Login extends Component{
 		u === this.state.loginName
 		))
 
-		if (username.length == 1){
+		if (username.length === 1){
 			dispatch(setAuthedUser(loginName))
 		}
 		else{
