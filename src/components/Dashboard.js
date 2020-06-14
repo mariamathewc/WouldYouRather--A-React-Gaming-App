@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import QuestionText from './QuestionText'
-import { Redirect } from 'react-router-dom'
+
 
 /*
 * This class displays the dashboard
