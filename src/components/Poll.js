@@ -1,6 +1,5 @@
 import React, {Fragment, Component } from 'react'
 import { connect } from 'react-redux'
-import { Redirect } from 'react-router-dom'
 import PollResult from './PollResult'
 import Unpolled from './Unpolled'
 import Logo from "../images/error-404.png"
